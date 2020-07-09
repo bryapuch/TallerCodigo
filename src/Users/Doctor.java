@@ -4,13 +4,14 @@ import java.util.Date;
 import java.util.LinkedList;
 
 import Area.AreaMedica;
+import main.Cita;
 
 public class Doctor extends Persona {
 	protected int regDoctor;
 	protected String especialidad;
 	protected Secretaria secretaria;
 	protected LinkedList<AreaMedica> areas;
-	
+	protected LinkedList<Cita> citasPendientes;
 	
 	
 	public Doctor(String usuario, String clave, String nombre, String apellido, String cedula, String direccion,
@@ -23,7 +24,6 @@ public class Doctor extends Persona {
 	public void recetar() {
 		
 	}
-	
 	
 	
 	public void planNutricional() {
