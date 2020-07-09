@@ -10,6 +10,7 @@ public class Persona {
 	protected String cedula;
 	protected String direccion;
 	protected Date fechaNac;
+	protected Administrador registradoPor;
 	
 	
 	public Persona(String usuario, String clave, String nombre, String apellido, String cedula, String direccion,

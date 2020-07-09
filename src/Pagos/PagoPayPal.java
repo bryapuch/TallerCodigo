@@ -1,6 +1,6 @@
 package Pagos;
 
-import java.util.Date;
+
 
 public class PagoPayPal {
 	protected float monto;
