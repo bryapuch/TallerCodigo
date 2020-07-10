@@ -25,4 +25,12 @@ public class Paciente extends Persona {
 		
 	}
 	
+	public boolean pagarCita() {
+		return true;
+	}
+	
+	public boolean confirmarEstadoCita() {
+		return true;
+	}
+	
 }

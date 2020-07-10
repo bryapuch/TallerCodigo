@@ -18,5 +18,15 @@ public class Secretaria extends Persona {
 	public void agendarCita() {
 		
 	}
-
+	
+	public void verificarDisponibilidad() {
+		
+		
+	}
+	
+	public boolean solicitarPago() {
+		return true;
+	}
+	
+	
 }
